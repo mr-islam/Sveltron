@@ -4,12 +4,12 @@
 	let test = process.versions.electron;
 </script>
 
-<style type="text/scss">
+<style>
 	h1 {
 		color: purple;
-		span {
-			color: green;
-		}
+	}
+	span {
+		color: green;
 	}
 </style>
 
@@ -19,4 +19,4 @@
 <p>and Electron version {process.versions.electron}.</p>
 <p>But most importantly <strong>Svelte</strong> version {version}!</p>
 <br>
-<p>This boilerplate, in addition to using Svelte with Electron, also uses <i>Node-Sass</i>!</p>
+<p>This boilerplate does not include <i>Node-Sass</i>!</p>
